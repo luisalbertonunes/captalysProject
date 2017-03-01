@@ -29,9 +29,6 @@
     
 }
 
-
-
-
 .menu .container li a::after {
     content: '';
     display: block;
