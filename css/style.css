@@ -1,46 +1,53 @@
+
 .menu {
-	background: #4a9aba;
-	/*position: fixed;*/
-	width: 100%;
-	height: 100px;
-	top: 0;
-	z-index: 100;
+    background: #4a9aba;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 }
+
 .menu .container {
-	text-align: right;
-	padding: 20px 20px 0 0;
+    text-align: right;
+    padding: 20px 20px 0 0;
 }
 
 .menu .container  ul {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
-
 
 .menu .container li a {
-	display: block;
-	color: white;
-	padding: 15px 10px;
-	text-decoration: none;
-	font-family:  "Domine", "Playfair", Helvetica, Arial, sans-serif; 
-	text-transform: uppercase;
-	font-size: 1.2em;
-	letter-spacing: 1px;
-	float: left;
+    display: block;
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-family:  "Domine", "Playfair", Helvetica, Arial, sans-serif; 
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    
 }
 
+
+
+
 .menu .container li a::after {
-	content: '';
-	display: block;
-	background: white;
-	height: 2px;
-	width: 0;
-	transition: .3s;
+    content: '';
+    display: block;
+    background: white;
+    height: 2px;
+    width: 0;
+    transition: .3s;
 }
 
 .menu .container li a:hover::after, .menu .container li a.active::after {
-	width: 100%;
+    width: 100%;
 }
+
+
+
+
 
 .navbar-brand{
 	margin-top:-7px;
@@ -51,7 +58,7 @@
 
 .logo {
 	display: block;
-	width: 180px;
+	width: 130px;
 	padding: -15px 5px 0 0;
 	text-decoration: none;
 	float: left;
